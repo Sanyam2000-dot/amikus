@@ -30,7 +30,7 @@ const LoginPage = () => {
   const postData = async (e) => {
     e.preventDefault();
     const { formBasicName, formBasicGender, formBasicPhone } = form;
-    const res = await fetch("http://localhost:3000/", {
+    const res = await fetch("https://amikus.herokuapp.com/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

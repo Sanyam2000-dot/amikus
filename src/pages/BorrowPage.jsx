@@ -29,7 +29,7 @@ const BorrowPage = () => {
       formBasicDuration,
       formBasicUPI,
     } = form;
-    const res = await fetch("http://localhost:3000/borrowREQ", {
+    const res = await fetch("https://amikus.herokuapp.com/borrowREQ", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
